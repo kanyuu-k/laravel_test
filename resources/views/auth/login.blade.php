@@ -3,8 +3,8 @@
 @section('content')
 <div class="jumbotron text-gray  d-flex align-items-center"
  style="background:url({{asset('img/main.png')}});background-size:cover;height:300px;">
-    <div class="col-12 col-md-8 col-lg-6 mx-auto">
-        <h1 class="mb-3 wakaba">学習フォーラムサイト</h1>
+    <div class="col-12 col-md-8 col-lg-6 mx-auto" style="color:aliceblue;text-shadow: -1px -2px 3px #808080;">
+        <h1 class="mb-3">学習フォーラムサイト</h1>
         <p>ご利用には、会員登録が必要となります。詳しくは下記までお問い合わせください。</p> 
         <a href="{{route('contact.create')}}">
             <button class="btn btn-info text-white">お問い合わせ</button>

@@ -3,11 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Models\User;
 
-if (config('app.env') === 'production' or config('app.env') === 'staging') {
-    // asset()やurl()がhttpsで生成される
-    URL::forceScheme('https');
-}
-
 // メール認証
 Auth::routes(['verify' => true]);
 
